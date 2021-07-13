@@ -3,3 +3,26 @@
   margin: 0px;
   padding: 0px;
 }
+/* ================= css-helper ===================== */
+body{
+  font-family: 'Poppins', sans-serif;
+}
+/* ================ header-section ==================== */
+header{}
+.header-section{}
+.inner-header{}
+.inner-left{}
+.inner-right{}
+
+/* =================== main-section ======================== */
+main{}
+.main-section{}
+.all-player{}
+.player-card{}
+.inner-card{}
+.card-details{}
+/* ======================= footer =========================== */
+footer{}
+.inner-footer{}
+.icon-and-text{}
+/* ====================== Responsive-design ====================== */
