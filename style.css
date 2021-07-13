@@ -7,12 +7,51 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 /* ================ header-section ==================== */
 header{}
-.header-section{}
-.inner-header{}
-.inner-left{}
+.header-section{
+  height: 677px;
+  background-color: rgb(27, 7, 75);
+  
+}
+.inner-header{
+  display: flex;
+  
+}
+.inner-left{
+  /* margin: 270px 0px 169px 156px; */
+  margin-left: 156px;
+}
+.inner-left h1{
+  color: white;
+  font-size: 64px;
+  margin: 185px 102px 15px 0px;
+
+}
+.watch-button a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.watch-button{
+  width: 160px;
+  background-color: teal;
+  padding: 10px 20px;
+  margin-bottom: 269px;
+}
+.watch-button h1{
+  display: inline-block;
+}
 .inner-right{}
+.inner-right img{
+  width: 556px;
+  height: 438px;
+  margin-top: 180px;
+}
 
 /* =================== main-section ======================== */
 main{}
