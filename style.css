@@ -129,11 +129,12 @@ main{}
 
 .video-section h1{
   display: inline-block;
-  background:rgb(29, 96, 197);
+  background: rgb(59, 59, 148);
+  border-radius: 5px;
   color: white;
   font-size: 35px;
   padding: 15px;
-  margin-bottom: 20px;
+  margin: 0px 0px 20px 20px;
 }
 .videos{
   display: flex;
@@ -143,9 +144,10 @@ main{}
 }
 /* ================== sign-up-section==================== */
 .sign-up-section{
-  height: 80px;
+  height: 100px;
 }
 .sign-up-section h1{
+  font-size: 30px;
   text-align: center;
   color: blueviolet;
   padding: 10px;
@@ -213,8 +215,8 @@ footer{
   .inner-header{
     flex-direction: column;
   }
-  .inner-left, .inner-left h1, .inner-highlight h1, .left-highlight{
-    margin: 12px;
+  .inner-left, .inner-left h1,.inner-highlight h1, .left-highlight{
+    margin: 10px;
   }
   .inner-right{
     margin: 10px;
@@ -238,6 +240,10 @@ footer{
     height: 100%;
     margin: 0px;
     flex-direction: column;
+  }
+  .video-section h1{
+    margin: 5px;
+    padding: 5px;
   }
   .sign-up{
     flex-direction: column;
