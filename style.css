@@ -113,8 +113,8 @@ a{
 }
 .right-highlight img{
   display: inline-block;
-  width: 570px;
-  height: 427px;
+  width: 350px;
+  height: 300px;
   margin: 0px 100px 0px 20px;
 }
 
@@ -125,14 +125,13 @@ a{
   background: rgb(59, 59, 148);
   border-radius: 5px;
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   padding: 15px;
   margin: 0px 0px 20px 20px;
 }
 .videos{
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
   margin: 0px 20px;
 }
 /* ================== sign-up-section==================== */
