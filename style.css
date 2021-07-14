@@ -17,11 +17,9 @@ header{}
   height: 677px;
   background-color: rgb(27, 7, 75);
   margin-bottom: 70px;
-  
 }
 .inner-header{
   display: flex;
-  
 }
 .inner-left{
   /* margin: 270px 0px 169px 156px; */
@@ -31,7 +29,6 @@ header{}
   color: white;
   font-size: 64px;
   margin: 185px 102px 15px 0px;
-
 }
 .watch-button a{
   display: flex;
@@ -53,7 +50,6 @@ header{}
 .watch-button h1{
   display: inline-block;
 }
-.inner-right{}
 .inner-right img{
   width: 556px;
   height: 438px;
@@ -65,7 +61,6 @@ header{}
 }
 
 /* =================== main-section ======================== */
-main{}
 .main-section{}
 .all-player{
   width: 1050px;
@@ -76,7 +71,6 @@ main{}
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 27px;
-
 }
 .inner-card{
   height: 474px;
@@ -151,7 +145,6 @@ main{}
   text-align: center;
   color: blueviolet;
   padding: 10px;
-
 }
 .sign-up{
   display: flex;
@@ -164,7 +157,6 @@ main{}
   height: 35px;
   background-color: rgb(231, 205, 255);
   border: none;
-
 }
 
 /* ======================= footer =========================== */
